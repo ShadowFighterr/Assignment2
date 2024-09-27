@@ -1,0 +1,144 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+p
+{
+	font-family: "Courier new", serif;
+	text-align: justify;
+	font-size:20px;	
+}
+pre
+{
+	font-size:20px;
+	font-family: Verdana;
+}
+
+li {
+  float: left;
+  margin-right:190px;
+  margin-left:200px;
+}
+h1
+{
+	text-align:center;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+img
+{
+	border-radius:10px;
+	float:right;
+	height:200px;
+	weight:200px;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: center;
+   }
+th {background-color: #f2f2f2;}
+
+/* Container for the whole page */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* About section */
+.about-myself {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+}
+
+.about-myself h2 {
+    font-size: 22px;
+    color: #444;
+}
+
+.about-myself p {
+    line-height: 1.6;
+}
+
+/* Programming experience section */
+.programming-experience {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #333;
+}
+
+.programming-experience h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+.programming-experience ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.programming-experience li {
+    padding: 5px 0;
+}
+
+/* Hackathon section */
+.hackathons {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+/* Image styling */
+img {
+    float: right;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
